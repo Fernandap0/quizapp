@@ -19,7 +19,7 @@
     --bg-html: #fff1e9;
     --bg-css: #e0fdef;
     --bg-javascript: #ebf0ff;
-    --bg-acessiblidade: #f6e7ff;
+    --bg-acessibilidade: #f6e7ff;
     --white: #fff;
     --green: #26d782;
     --red: #ee5454;     
@@ -57,16 +57,31 @@ header {
     gap: 16px;
 }
 
-.assunto_ícone {
-    background: var(--bg-acessiblidade);
+.assunto_icone {
     width: 40px;
     height: 40px;
     padding: 5px;
     border-radius: 5px;
 }
 
-.assunto_ícone img {
-    width: 100%;
+.assunto_icone.html {
+    background: var(--bg-html);
+}
+
+.assunto_icone.css {
+    background: var(--bg-css);
+}
+
+.assunto_icone.javascript {
+    background: var(--bg-javascript);
+}
+
+.assunto_icone.acessibilidade {
+    background: var(--bg-acessibilidade);
+}
+
+.assunto_icone img {
+    width: 100%
 }
 
 .assunto h1 {
@@ -162,7 +177,7 @@ main{
 
 .alternativas label:hover {
     & span {
-        background: var(--bg-acessiblidade);
+        background: var(--bg-acessibilidade);
         color: var(--purple);
     }
 }

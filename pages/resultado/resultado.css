@@ -19,7 +19,7 @@
     --bg-html: #fff1e9;
     --bg-css: #e0fdef;
     --bg-javascript: #ebf0ff;
-    --bg-acessiblidade: #f6e7ff;
+    --bg-acessibilidade: #f6e7ff;
     --white: #fff; 
     --bg-mobile: url(../../assets/images/pattern-backgroud-mobile-light.svg);
     --bg-desktop: url(../../assets/images/pattern-backgroud-desktop-light.svg);
@@ -55,15 +55,15 @@ header {
     gap: 16px;
 }
 
-.assunto_ícone {
-    background: var(--bg-acessiblidade);
+.assunto_icone {
+    background: var(--bg-acessibilidade);
     width: 40px;
     height: 40px;
     padding: 5px;
     border-radius: 5px;
 }
 
-.assunto_ícone img {
+.assunto_icone img {
     width: 100%;
 }
 
